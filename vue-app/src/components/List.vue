@@ -1,7 +1,8 @@
-<template>
+<template class="list-todo">
   <h2>Todos</h2>
-  <ul>
-<!--    <li v-for="todo in todos">{{ todo }}</li>-->
+  <ul v-for="todo in todos">
+    <li>{{ todo.title }}</li>
+    <li>{{todo.description}}</li>
   </ul>
 </template>
 
